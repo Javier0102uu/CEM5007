@@ -1,0 +1,7 @@
+1. Added Create table if not exist in php
+2. SECURITY=>Changed admin page logic error (localhost:3000/admin), user must login and must be an admin account in order to 
+3. Added create admin account if not exists (Admin Details=name: superadmin@gmail.com, password: superadmin)
+4. SECURITY=>Changed to not direct store password in database, instead store hash value
+5. Fixed bugs for users that have no lessons registered
+6. Fixed display bugs for signed in users and public users (not signed in)
+7. Changed website icon that shown on browser tab (favicon.ico)
